@@ -21,7 +21,7 @@ class RequestException(Exception):
 
 class WhatAPI:
     def __init__(self, config_file=None, username=None, password=None, cookies=None,
-                 server="https://ssl.what.cd"):
+                 server="https://redacted.ch"):
         self.session = requests.Session()
         self.session.headers = headers
         self.authkey = None
